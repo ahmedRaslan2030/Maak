@@ -1,0 +1,10 @@
+/* 
+  EmailLocalizable.strings
+  WithYou
+
+  Created by Ahmed Raslan on 28/08/2023.
+  
+*/
+
+"E-mail Address" = "البريد الالكتروني";
+"Please enter your e-mail address" = "برجاء ادخال البريد الالكتروني الخاص بك";

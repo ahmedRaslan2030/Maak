@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChangePhoneVerificationVC" customModule="Amin" customModuleProvider="target">
+            <connections>
+                <outlet property="codeTextField" destination="DDn-pK-ZGO" id="LK1-xH-kCc"/>
+                <outlet property="descText" destination="WdD-gp-C5P" id="30d-XM-eVV"/>
+                <outlet property="resendCode" destination="TTU-bq-SQT" id="fLL-vM-0nq"/>
+                <outlet property="resendCodeStack" destination="ISN-JN-IFc" id="RNW-7j-nze"/>
+                <outlet property="timerLabel" destination="WjY-Cl-BaT" id="Thr-cm-ja4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tYc-8d-KSm" userLabel="ContentView">
+                    <rect key="frame" x="32" y="89.5" width="311" height="488.5"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Lp2-Ti-R0H">
+                            <rect key="frame" x="16" y="30" width="279" height="428.5"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="verification" translatesAutoresizingMaskIntoConstraints="NO" id="qag-T2-GI5">
+                                    <rect key="frame" x="73" y="0.0" width="133" height="109"/>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="H16-Nz-W1g">
+                                    <rect key="frame" x="15" y="139" width="249" height="82.5"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verification Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yka-Yi-atr">
+                                            <rect key="frame" x="0.0" y="0.0" width="249" height="24"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                            <color key="textColor" name="mainDarkFontColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Phone Number Verification"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Verification Code"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter the code sent to you via the mobile number to activate your account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdD-gp-C5P">
+                                            <rect key="frame" x="0.0" y="32" width="249" height="50.5"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                            <color key="textColor" name="secondaryDarkFontColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Please enter the code sent to you via the mobile number"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Please enter the code sent to you via the mobile number to activate your account"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDn-pK-ZGO" customClass="OTPTextField" customModule="Amin" customModuleProvider="target">
+                                    <rect key="frame" x="16" y="251.5" width="247" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="Ab7-RA-W2g"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ISN-JN-IFc">
+                                    <rect key="frame" x="8" y="331.5" width="263" height="17"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="751" text="Did not receive code yet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma4-21-pDo">
+                                            <rect key="frame" x="0.0" y="0.0" width="157" height="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" name="secondaryDarkFontColor"/>
+                                            <nil key="highlightedColor"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Did not receive code yet"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Did not receive code yet"/>
+                                            </userDefinedRuntimeAttributes>
+                                        </label>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TTU-bq-SQT">
+                                            <rect key="frame" x="165" y="0.0" width="98" height="17"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="Resend Code">
+                                                <color key="titleColor" name="secondary"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Resend Code"/>
+                                                <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Resend Code"/>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="resendButtonPressed" destination="-1" eventType="touchUpInside" id="Tvj-Pz-vwv"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WjY-Cl-BaT">
+                                    <rect key="frame" x="114.5" y="363.5" width="50.5" height="0.0"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                    <color key="textColor" name="secondaryDarkFontColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MMM-2g-ZSm">
+                                    <rect key="frame" x="8" y="378.5" width="263" height="50"/>
+                                    <color key="backgroundColor" name="main"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="jbv-qD-9aJ"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Confirm"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Confirm"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Confirm"/>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="confirmWasPressed:" destination="-1" eventType="touchUpInside" id="zau-50-jby"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="H16-Nz-W1g" firstAttribute="leading" secondItem="Lp2-Ti-R0H" secondAttribute="leading" constant="15" id="5TS-h2-EJ9"/>
+                                <constraint firstAttribute="trailing" secondItem="DDn-pK-ZGO" secondAttribute="trailing" constant="16" id="5py-0B-04G"/>
+                                <constraint firstItem="MMM-2g-ZSm" firstAttribute="leading" secondItem="Lp2-Ti-R0H" secondAttribute="leading" constant="8" id="9v9-9c-TPt"/>
+                                <constraint firstItem="DDn-pK-ZGO" firstAttribute="leading" secondItem="Lp2-Ti-R0H" secondAttribute="leading" constant="16" id="AMr-ww-g6K"/>
+                                <constraint firstAttribute="trailing" secondItem="ISN-JN-IFc" secondAttribute="trailing" constant="8" id="YbF-hO-V4n"/>
+                                <constraint firstAttribute="trailing" secondItem="H16-Nz-W1g" secondAttribute="trailing" constant="15" id="bl6-9B-YWq"/>
+                                <constraint firstItem="ISN-JN-IFc" firstAttribute="leading" secondItem="Lp2-Ti-R0H" secondAttribute="leading" constant="8" id="ue7-HG-GWG"/>
+                                <constraint firstAttribute="trailing" secondItem="MMM-2g-ZSm" secondAttribute="trailing" constant="8" id="yZ3-0t-Bc2"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="mainBackground"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Lp2-Ti-R0H" secondAttribute="bottom" constant="30" id="bBp-0i-y4I"/>
+                        <constraint firstAttribute="trailing" secondItem="Lp2-Ti-R0H" secondAttribute="trailing" constant="16" id="d86-M9-HYx"/>
+                        <constraint firstItem="Lp2-Ti-R0H" firstAttribute="leading" secondItem="tYc-8d-KSm" secondAttribute="leading" constant="16" id="dMb-k7-ts0"/>
+                        <constraint firstItem="Lp2-Ti-R0H" firstAttribute="top" secondItem="tYc-8d-KSm" secondAttribute="top" constant="30" id="tqI-Oa-Yxa"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="tYc-8d-KSm" secondAttribute="trailing" constant="32" id="2tv-da-ykr"/>
+                <constraint firstItem="tYc-8d-KSm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="32" id="HSa-pn-ho9"/>
+                <constraint firstItem="tYc-8d-KSm" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="djG-aN-tLE"/>
+                <constraint firstItem="tYc-8d-KSm" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qAs-vP-Atw"/>
+            </constraints>
+            <point key="canvasLocation" x="-108" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="verification" width="133" height="109"/>
+        <namedColor name="main">
+            <color red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainBackground">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainDarkFontColor">
+            <color red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondary">
+            <color red="0.52941176470588236" green="0.015686274509803921" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryDarkFontColor">
+            <color red="0.3411764705882353" green="0.3411764705882353" blue="0.3411764705882353" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,306 @@
+/* 
+  Localizable.strings
+
+ Created by Ahmed Raslan®
+  
+*/
+
+// MARK: - General -
+
+"Welcome" = "مرحباً بك";
+"Done" = "تم";
+"Confirm" = "تأكيد";
+"Start" = "البدأ";
+"Continue" = "متابعة";
+"Back" = "تراجع" ;
+"cancel" = "الغاء" ;
+"search" = "البحث" ;
+"No Data Found" = "لا توجد بيانات" ;
+"Save" = "حفظ" ;
+"Send" = "ارسال" ;
+"Skip" = "تخطي";
+"Next" = "التالي";
+"Cancel" = "الغاء" ;
+"EGP" = "ج.م" ;
+
+// Tab Bar //
+"Home" = "الرئيسة";
+"Notifications" = "الإشعارات";
+"My Orders" = "طلباتي";
+"Cart" = "السلة";
+"Chats" = "المحادثات";
+"More" = "المزيد";
+
+
+
+// MARK: - Intro Flow -
+
+"App Language" = "لغة التطبيق" ;
+"Please choose app language" = "من فضلك قم بتحديد لغة التطبيق";
+"Choose Language" = "إختيار اللغة";
+
+
+
+
+// MARK: - Auth Flow -
+
+/* Login */
+
+"Login" = "تسجيل الدخول";
+"Please enter the following data to sign in" = "من فضلك قم بإدخال البيانات التالية لتسجيل الدخول";
+"User name" = "اسم المستخدم" ;
+"please enter user name" = "برجاء إدخال اسم المستخدم" ;
+"Phone number" = "رقم الجوال";
+"please enter phone number" = "برجاء إدخال رقم الجوال";
+"Password" = "كلمة المرور";
+"please enter password" = "برجاء إدخال كلمة المرور";
+"Forget Password ?" = "هل نسيت كلمة المرور ؟";
+"Do you forget password ?" = "هل نسيت كلمة المرور ؟";
+"Login as a visitor" = "الدخول كزائر";
+"Don't have account ?" = "لا تملك حساب ؟";
+"Choose the country" = "اختر الدولة" ;
+
+
+
+/* Register */
+"please enter the following data to complete your profile" = "فضلا ادخل البيانات التالية لإكمال الملف الشخصي" ;
+"Sign up" = "تسجيل جديد";
+"New account" = "حساب جديد";
+"Create an account" = "إنشاء حساب";
+"first name" = "الاسم الاول" ;
+"last name" = "الاسم الاخير" ;
+"username" = "اسم المستخدم" ;
+"phone" = "رقم الجوال" ;
+"email" = "البريد الالكتروني" ;
+"city" = "المدينة" ;
+"nationality" = "الجنسية" ;
+"password" = "كلمة المرور" ;
+"confirm password" = "تأكيد كلمة المرور" ;
+"please enter your username" = "برجاء إدخال إسم المستخدم";
+"please enter your mail" = "برجاء إدخال بريدك الإلكتروني";
+"City" = "المدينة";
+"please select your city" = "برجاء إختيار المدينة";
+"please enter confirm password" = "برجاء إدخال تأكيد كلمة المرور";
+"Already have an account ?" = "لديك حساب بالفعل ؟";
+"I agree to the terms and conditions" = "اوافق علي الشروط والاحكام";
+"terms and conditions" = "الشروط والأحكام" ;
+"Create new account" = "انشاء حساب جديد" ;
+"Register" = "تسجيل" ;
+"You have to sign in first" = "يجب تسجيل الدخول أولا" ;
+
+/* ForgetAndResetPassword */
+
+"Reset password" = "إستعادة كلمة المرور";
+"Please enter the registered mobile number" = "من فضلك قم بإدخال رقم الجوال المسجل";
+"New password" = "كلمة المرور الجديدة";
+"please enter new password" = "برجاء إدخال كلمة المرور الجديدة";
+"Confirm new password" = "تأكيد كلمة المرور الجديدة";
+"please enter confirm new password" = "برجاء إدخال تأكيد كلمة المرور الجديدة";
+"Please enter the new password" = "فضلا ادخل كلمة المرور الجديدة" ;
+
+
+
+/* Activation Code */
+
+"activate the account" = "تفعيل الحساب";
+"please enter your phone to receive the activation message" = "برجاء إدخال رقم الجوال لتصلك رسالة التفعيل";
+"Please enter the code sent to you via the mobile number" = "برجاء إدخال الكود المرسل إاليك عبر رقم الجوال";
+"Did not receive code yet ?" = "لم تستلم الكود بعد ؟";
+"Resend Code" = "إعادة إرسال";
+"second" = "ثانية";
+"Please enter the code sent to you via the mobile number to activate your account" = "فضلاً أدخل كود التحقق المرسل عبر جوالك لتفعيل الحساب" ;
+"Verification Code" = "كود التحقق" ;
+"Did not receive code yet" = "لم تستلم الرمز بعد؟إعادة إرسال الرمز";
+"Please enter the code that had been sent to you" = "فضلاً أدخل رمز التحقق المرسل اليك" ;
+"Mobile Number" = "رقم الجوال" ;
+"please enter phone number to receive verification code" = "فضلاً  أدخل رقم الجوال ليتم إرسال رمز التحقق" ;
+ "please enter phone number" = "ادخل رقم الجوال" ;
+
+
+
+/* SuccessVC */
+"Changes have been saved successfully" = "تم حفظ التغييرات بنجاح" ;
+
+
+
+
+// MARK: - Main Flow -
+
+/* HomeVC */
+
+"welcome" = "اهلا بك" ;
+"Our Services" = "خدماتنا" ;
+
+/* SubCategoryVC */
+"Coming soon...Stay tuned" = "جايينكم قريب..خلوكم علي الموعد" ;
+"Sections:" = "الأقسام:" ;
+"General Sections:" = "الاقسام العامة:" ;
+
+/* Create Order */
+"company" = "شركة" ;
+"individual" = "فرد" ;
+"Choose provider type" = "اختيار نوع مقدم الخدمة" ;
+"Create Order" = "اضافة طلب" ;
+"Current Location" = "الموقع الحالي" ;
+"Choose destination" = "تحديد الوجهة" ;
+"Order details" = "تفاصيل الطلب:" ;
+"can not enter mobile number in text" = "لا يمكن ادخال رقم جوال في النص" ;
+"Up to 6 images" = "حد أقصي ٦ صور" ;
+"add photos" = "إرفاق صور" ;
+"Can not add more than 6 images" = "لا يمكن إرفاق اكثر من ٦ صور" ;
+"Order has been sent successfully,waiting order offers" = "تم ارسال الطلب بنجاح في انتظار عروض الأسعار" ;
+
+"Required Date" = "التاريخ المطلوب" ;
+"Required Time" = "الوقت المطلوب" ;
+
+"Add Document" = "ارفاق مستندات" ;
+
+"Pick Image" = "ادراج صورة" ;
+"Files" =  "ملفات" ;
+"Camera" = "الكاميرا" ;
+"Gallery" = "معرض الصور" ;
+
+"Write Your Message Here" = "اكتب رسالتك" ;
+"Chat" = "اجراء محادثة" ;
+
+/* MapLocationVC */
+
+"Add address" = "إضافة عنوان" ;
+"Loading ......." = "جاري التحميل...." ;
+"house no/building no/apartment (optional)" = "رقم المنزل/ العمارة/ الشقة (اختيارى)" ;
+
+
+
+// MARK: - Order Flow -
+
+/* MyOrdersVC */
+
+"Waiting" = "قيد الانتظار";
+"Processing" = "قيد المعالجة" ;
+"InProgress" = "جاري التنفيذ" ;
+"Finished" = "منتهية" ;
+"Order number:" = "رقم الطلب:" ;
+"Service type:" = "نوع الخدمة:" ;
+"Provider name:" = "اسم مقدم الخدمة:" ;
+"show more" = "عرض المزيد" ;
+
+
+
+
+/* OrderDetailsVC */
+"Order Details" = "تفاصيل الطلب" ;
+"Offers for order number" = "عروض طلب رقم" ;
+"Waiting prices offers" = "في انتظار عروض الأسعار" ;
+"Update" = "تحديث" ;
+"Cancel Order" = "انهاء الطلب" ;
+"Provider type:" = "نوع مقدم الخدمة:" ;
+
+"Order Data:" = "بيانات الطلب :" ;
+"Order Number" = "رقم الطلب" ;
+"Service Type" = "نوع الخدمة" ;
+"Provider Type" = "نوع مقدم الخدمة" ;
+"Order Date" = "تاريخ الطلب" ;
+"Location" = "الموقع" ;
+"Service Price" = "سعر الخدمة" ;
+
+"Accept" = "قبول" ;
+"Ask for negotiation" = "طلب تفاوض" ;
+"Final price" = "سعر نهائي" ;
+"Service Value :" = "قيمة الخدمة :" ;
+"Received Offers:" = "العروض المقدمة:" ;
+"open chat" = "اجراء محادثة" ;
+
+"Why you cancel the order ?" = "ما سبب الغاء الطلب؟" ;
+"Confirm Cancellation" = "تأكيد الإلغاء" ;
+"Cancel Order " = "إلغاء الطلب" ;
+"Bill type" = "نوع الفاتورة" ;
+"Bill number" = "رقم الفاتورة" ;
+"Payment type" = "طريقة الدفع" ;
+"Paid amount" = "المبلغ المدفوع" ;
+"Remaining amount" = "المبلغ المتبقي" ;
+"Payment" = "السداد" ;
+
+
+"Successful payment transaction" = "" ;
+"Provider request has been declined successfully and it will be on scheduled time" = "تم رفض طلب مقدم الخدمة بنجاح وسيتم الحضور في الموعد المحدد" ;
+
+
+"New Appointment Data: " = "بيانات الموعد الجديدة:" ;
+"New Date" = "التاريخ الجديد" ;
+"Time" = "الوقت" ;
+"Company name" = "اسم الشركة" ;
+"Provider name" = "اسم مقدم الخدمة" ;
+"Bill number" = "رقم الفاتورة" ;
+"App Commission" = "عمولة التطبيق"  ;
+"Service type" = "نوع الخدمة" ;
+"Total" = "الاجمالي" ;
+"Order Bill" = "فاتورة الطلب" ;
+"Accept Request" = "قبول الطلب" ;
+"Refuse Request" = "رفض الطلب" ;
+"Provider Data:" = "معلومات مقدم الخدمة:" ;
+"entered price" = "السعر المدخل" ;
+ "Preview Bills" = "عرض الفواتير" ;
+// MARK: - More Flow -
+
+/* MoreVC */
+
+"Profile" = "الملف الشخصي";
+"Change phone number" = "تغيير رقم الجوال" ;
+"Change password" = "تغيير كلمه المرور" ;
+"Language" = "اللغه" ;
+"General Settings" = "الاعدادات العامه" ;
+"About us" = "من نحن" ;
+"Complaints and Suggestions" = "الشكاوى والاقتراحات" ;
+"FAQ" = "الاسئله الشائعه" ;
+"Contact us" = "تواصل معنا" ;
+"Delete Account" = "حذف الحساب" ;
+"SignOut" = "تسجيل الخروج" ;
+"Are you sure you want to delete account ?" = "هل انت متاكد من رغبتك بحذف الحساب؟" ;
+"Are you sure you want to log off ?" = "هل انت متاكد من رغبتك بتسجيل الخروج؟" ;
+
+
+/* Edit Profile VC */
+"Profile Data" = "البيانات الشخصية" ;
+"Region" = "المنطقة" ;
+
+/* Change Phone Number VC */
+
+"Change Phone Number" = "تغيير رقم الجوال" ;
+"New Phone Number" = "رقم الجوال الجديد" ;
+"Adding new phone number" = "اضافة رقم جوال جديد" ;
+
+/* Change Password VC */
+"New Password" = "كلمة المرور الجديدة" ;
+"Old Password" = "كلمة المرور القديمة" ;
+"Confirm Password" = "تأكيد كلمة المرور الجديدة" ;
+"Save Changes" = "حفظ التغييرات" ;
+
+/* General Settings VC */
+"General Settings" = "الاعدادات العامة" ;
+"Notifications Sound" = "صوت الاشعارات" ;
+
+/* Contact Us VC */
+"Contact us" = "تواصل معنا" ;
+"message body" = "نص الرسالة" ;
+
+/* Complaints VC */
+
+"Complaints and Suggestions" = "الشكاوي والاقتراحات" ;
+"General Complaints" = "الشكاوي العامة" ;
+"Orders Complaints" = "شكاوي الطلبات" ;
+"status:" = "الحالة:" ;
+"Complaint name:" = "اسم الشكوي:" ;
+"Add Complaint" = "اضافة شكوي" ;
+"complaint title" = "عنوان الشكوي" ;
+"Your complaint has been sent successfully" = "تم رفع الشكوي بنجاح" ;
+
+/* FAQS VC */
+
+"Frequently Asked Questions" = "الأسئلة الشائعة" ;
+"Current balance" = "الرصيد الحالى";
+
+"Your session has been expired,Please Login again" = "يرجي اعادة تسجيل الدخول" ;
+"Your account is blocked" = "تم حظر حسابك من قبل الادارة" ;
+
+
+"Can not send request, please check your connection" = "لا يمكننا الاتصال حاليا, يرجي التحقق من اتصالك بالانترنت" ;

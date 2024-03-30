@@ -1,0 +1,24 @@
+/* 
+ PhoneNumberLocalizable.strings
+  WithYou
+
+  Created by Ahmed Raslan on 28/08/2023.
+  
+*/
+
+"Phone Number" = "رقم الجوال";
+"Please enter your phone number" = "الرجاء ادخال رقم الجوال";
+//MARK: - Phone -
+"Please enter your phone number." = "يرجى إدخال رقم الجوال الخاص بك.";
+"Please enter correct phone number." = "الرجاء إدخال رقم جوال صحيح.";
+"Please enter correct whatsApp number." = "الرجاء إدخال رقم واتساب صحيح.";
+"New phone number" = "رقم الجوال الجديد";
+"Please enter new phone number" = "فضلا ادخل رقم الجوال الجديد";
+//MARK: - Country Code -
+"Choose" = "اختر";
+"Done" = "تم";
+"Cancel" = "الغاء";
+
+"Select Country" = "اختر الدولة";
+"Search" = "بحث";
+

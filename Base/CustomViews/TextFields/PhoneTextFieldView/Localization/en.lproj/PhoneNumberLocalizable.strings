@@ -1,0 +1,23 @@
+/* 
+ PhoneNumberLocalizable.strings
+  WithYou
+
+  Created by Ahmed Raslan on 28/08/2023.
+  
+*/
+
+"Phone Number" = "Phone Number";
+"Please enter your phone number" = "Please enter your phone number";
+
+//MARK: - Validations -
+"Please enter your phone number." = "Please enter your phone number.";
+"Please enter correct phone number." = "Please enter correct phone number.";
+"Please enter correct whatsApp number." = "Please enter correct whatsApp number.";
+
+//MARK: - Country Code -
+"Choose" = "Choose";
+"Done" = "Done";
+"Cancel" = "Cancel";
+
+"Select Country" = "Select Country";
+"Search" = "Search";

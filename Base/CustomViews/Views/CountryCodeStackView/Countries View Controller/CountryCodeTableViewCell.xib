@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="CountryCodeTableViewCell" customModule="Law" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="324" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEs-Eo-UAv">
+                        <rect key="frame" x="5" y="5" width="314" height="105"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ZBZ-t7-IyJ">
+                                <rect key="frame" x="0.0" y="0.0" width="314" height="105"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="mB2-zt-fxj">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="105"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hZK-dJ-rAl">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="105"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arabic" translatesAutoresizingMaskIntoConstraints="NO" id="tMk-hT-9eJ">
+                                                        <rect key="frame" x="5" y="37.666666666666664" width="40" height="29.999999999999993"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="40" id="HmL-WA-GVN"/>
+                                                            <constraint firstAttribute="height" constant="30" id="MFF-l4-FxS"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="tMk-hT-9eJ" firstAttribute="centerX" secondItem="hZK-dJ-rAl" secondAttribute="centerX" id="2b1-aT-h18"/>
+                                                    <constraint firstAttribute="trailing" secondItem="tMk-hT-9eJ" secondAttribute="trailing" constant="5" id="aXc-16-UYy"/>
+                                                    <constraint firstItem="tMk-hT-9eJ" firstAttribute="centerY" secondItem="hZK-dJ-rAl" secondAttribute="centerY" id="cKV-Up-3mK"/>
+                                                    <constraint firstItem="tMk-hT-9eJ" firstAttribute="leading" secondItem="hZK-dJ-rAl" secondAttribute="leading" constant="5" id="lZC-zd-9ni"/>
+                                                </constraints>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kingdom of Saudi Arabia " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Hx-9H-wVd">
+                                                <rect key="frame" x="65.000000000000014" y="0.0" width="192.33333333333337" height="105"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="240" text="0096" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MM8-KC-Rfp">
+                                                <rect key="frame" x="272.33333333333331" y="0.0" width="41.666666666666686" height="105"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="mB2-zt-fxj" firstAttribute="leading" secondItem="ZBZ-t7-IyJ" secondAttribute="leading" id="KJd-0T-dFf"/>
+                                    <constraint firstAttribute="trailing" secondItem="mB2-zt-fxj" secondAttribute="trailing" id="je6-y1-im8"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZBZ-t7-IyJ" secondAttribute="trailing" id="LLE-7w-mQ5"/>
+                            <constraint firstItem="ZBZ-t7-IyJ" firstAttribute="leading" secondItem="TEs-Eo-UAv" secondAttribute="leading" id="Sxr-w2-I3P"/>
+                            <constraint firstItem="ZBZ-t7-IyJ" firstAttribute="top" secondItem="TEs-Eo-UAv" secondAttribute="top" id="em2-JK-q7f"/>
+                            <constraint firstAttribute="bottom" secondItem="ZBZ-t7-IyJ" secondAttribute="bottom" id="oxO-br-adW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="TEs-Eo-UAv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="b48-8Y-zac"/>
+                    <constraint firstItem="TEs-Eo-UAv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="dJH-zl-MIN"/>
+                    <constraint firstAttribute="bottom" secondItem="TEs-Eo-UAv" secondAttribute="bottom" constant="5" id="pZ5-7d-yKv"/>
+                    <constraint firstAttribute="trailing" secondItem="TEs-Eo-UAv" secondAttribute="trailing" constant="5" id="tUd-yE-JHs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="countryCodeLabel" destination="MM8-KC-Rfp" id="LKk-pA-mv2"/>
+                <outlet property="countryFlagImage" destination="tMk-hT-9eJ" id="S9j-zg-T0f"/>
+                <outlet property="countryNameLabel" destination="4Hx-9H-wVd" id="FtY-pX-SOz"/>
+            </connections>
+            <point key="canvasLocation" x="117.55725190839694" y="117.95774647887325"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arabic" width="33" height="21.666666030883789"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhoneTextFieldView" customModule="Amin" customModuleProvider="target">
+            <connections>
+                <outlet property="countryCode" destination="ql0-c2-fvv" id="w1C-GB-hIq"/>
+                <outlet property="countryCodeStackView" destination="UY1-t2-Gdb" id="5bd-v3-gtH"/>
+                <outlet property="countryImage" destination="baW-u1-pJ7" id="jvC-JQ-ywH"/>
+                <outlet property="phoneNumber" destination="WOP-kv-oqb" id="KCy-9k-gyC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="410" height="83"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SqP-w1-vSO">
+                    <rect key="frame" x="0.0" y="0.0" width="410" height="83"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="4up-6V-b1D">
+                            <rect key="frame" x="8" y="0.0" width="394" height="83"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="240" verticalHuggingPriority="240" horizontalCompressionResistancePriority="790" verticalCompressionResistancePriority="790" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7OP-fI-gyi">
+                                    <rect key="frame" x="0.0" y="0.0" width="23" height="83"/>
+                                    <color key="tintColor" name="AccentColor"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal">
+                                        <imageReference key="image" image="iphone" catalog="system" symbolScale="medium"/>
+                                    </state>
+                                    <state key="selected" image="iphone" catalog="system"/>
+                                </button>
+                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please enter your phone number." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WOP-kv-oqb">
+                                    <rect key="frame" x="31" y="0.0" width="252" height="83"/>
+                                    <color key="textColor" name="mainDarkFontColor"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="please enter phone number"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibPlaceholderLocKey" value="Please enter your phone number."/>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="UY1-t2-Gdb" customClass="CountriesStackView" customModule="Amin" customModuleProvider="target">
+                                    <rect key="frame" x="291" y="0.0" width="103" height="83"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRy-Ee-Rki">
+                                            <rect key="frame" x="0.0" y="8" width="1.5" height="67"/>
+                                            <color key="backgroundColor" name="shadowColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="1.5" id="ua7-z0-yGS"/>
+                                            </constraints>
+                                        </view>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="baW-u1-pJ7">
+                                            <rect key="frame" x="5.5" y="26.5" width="40" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="40" id="2Ao-WZ-P8v"/>
+                                                <constraint firstAttribute="height" constant="30" id="fsx-Jc-vpe"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="+966" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ql0-c2-fvv">
+                                            <rect key="frame" x="49.5" y="33.5" width="34" height="16"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="rJ4-ij-UBW"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                                            <color key="textColor" name="mainDarkFontColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.up.chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="UV9-jB-xXo">
+                                            <rect key="frame" x="87.5" y="32.5" width="15.5" height="18"/>
+                                            <color key="tintColor" name="secondaryColor"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="SRy-Ee-Rki" secondAttribute="bottom" constant="8" id="H7w-Z9-Fwh"/>
+                                        <constraint firstItem="SRy-Ee-Rki" firstAttribute="top" secondItem="UY1-t2-Gdb" secondAttribute="top" constant="8" id="u0V-al-y6g"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" name="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="4up-6V-b1D" secondAttribute="bottom" id="8S2-sY-0sM"/>
+                        <constraint firstItem="4up-6V-b1D" firstAttribute="leading" secondItem="SqP-w1-vSO" secondAttribute="leading" constant="8" id="8iw-qH-TVU"/>
+                        <constraint firstItem="7OP-fI-gyi" firstAttribute="width" secondItem="SqP-w1-vSO" secondAttribute="width" multiplier="0.0564334" id="Igg-oE-O4l"/>
+                        <constraint firstItem="4up-6V-b1D" firstAttribute="top" secondItem="SqP-w1-vSO" secondAttribute="top" id="idU-ia-tbq"/>
+                        <constraint firstAttribute="trailing" secondItem="4up-6V-b1D" secondAttribute="trailing" constant="8" id="tT2-10-JHO"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="borderColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SqP-w1-vSO" secondAttribute="trailing" id="6iB-mT-6t8"/>
+                <constraint firstItem="SqP-w1-vSO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="7pG-Vi-7bj"/>
+                <constraint firstItem="SqP-w1-vSO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VZo-6B-oTh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="SqP-w1-vSO" secondAttribute="bottom" id="pVD-A6-JjJ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-91.200000000000003" y="-18.440779610194905"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.up.chevron.down" catalog="system" width="109" height="128"/>
+        <image name="iphone" catalog="system" width="112" height="128"/>
+        <namedColor name="AccentColor">
+            <color red="0.96078431372549022" green="0.58431372549019611" blue="0.58431372549019611" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="borderColor">
+            <color red="0.43900001049041748" green="0.43900001049041748" blue="0.43900001049041748" alpha="0.070000000298023224" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="mainDarkFontColor">
+            <color red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryColor">
+            <color red="0.086000002920627594" green="0.10599999874830246" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="shadowColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.15999999642372131" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="whiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

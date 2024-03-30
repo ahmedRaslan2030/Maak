@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ComplaintsVC" customModule="Amin" customModuleProvider="target">
+            <connections>
+                <outlet property="segmentedControl" destination="lpl-94-L1c" id="brW-th-ciz"/>
+                <outlet property="tableView" destination="uKs-x2-RgT" id="6ur-Yj-j1i"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lpl-94-L1c">
+                    <rect key="frame" x="16" y="75" width="361" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="FLA-5C-Q2z"/>
+                    </constraints>
+                    <segments>
+                        <segment title="First"/>
+                        <segment title="Second"/>
+                    </segments>
+                    <connections>
+                        <action selector="switchSegmentControl:" destination="-1" eventType="valueChanged" id="A57-9t-fJV"/>
+                    </connections>
+                </segmentedControl>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="uKs-x2-RgT" customClass="TableViewContentSized" customModule="Amin" customModuleProvider="target">
+                    <rect key="frame" x="16" y="139" width="361" height="597"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBb-wf-ZzR" userLabel="FooterView">
+                    <rect key="frame" x="0.0" y="752" width="393" height="100"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="sCc-vF-k6e">
+                            <rect key="frame" x="16" y="15" width="361" height="50"/>
+                            <subviews>
+                                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xmg-3k-vWc">
+                                    <rect key="frame" x="0.0" y="0.0" width="361" height="50"/>
+                                    <color key="backgroundColor" name="main"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="BgQ-hz-3Ez"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Add Complaint"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="localizeKey" value="Confirm"/>
+                                        <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="Add Complaint"/>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="CornerRadius">
+                                            <real key="value" value="8"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="goToAddComplain:" destination="-1" eventType="touchUpInside" id="WCj-nr-I0j"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="xmg-3k-vWc" secondAttribute="trailing" id="AjU-eK-bfu"/>
+                                <constraint firstItem="xmg-3k-vWc" firstAttribute="leading" secondItem="sCc-vF-k6e" secondAttribute="leading" id="vRd-Jo-BTH"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="sCc-vF-k6e" firstAttribute="leading" secondItem="bBb-wf-ZzR" secondAttribute="leading" constant="16" id="Exl-Av-zae"/>
+                        <constraint firstAttribute="bottom" secondItem="sCc-vF-k6e" secondAttribute="bottom" constant="35" id="YwA-s5-94t"/>
+                        <constraint firstAttribute="trailing" secondItem="sCc-vF-k6e" secondAttribute="trailing" constant="16" id="duA-Oo-oOu"/>
+                        <constraint firstAttribute="height" constant="100" id="tYU-7y-WnM"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" name="shadowColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="-1" height="-1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" name="shadowColor"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" name="secondaryBackground"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bBb-wf-ZzR" secondAttribute="trailing" id="5K2-Q5-udr"/>
+                <constraint firstAttribute="bottom" secondItem="bBb-wf-ZzR" secondAttribute="bottom" id="UbB-nH-PeQ"/>
+                <constraint firstItem="uKs-x2-RgT" firstAttribute="top" secondItem="lpl-94-L1c" secondAttribute="bottom" constant="16" id="XUf-Ny-GsM"/>
+                <constraint firstItem="bBb-wf-ZzR" firstAttribute="top" secondItem="uKs-x2-RgT" secondAttribute="bottom" constant="16" id="akX-Xp-BqL"/>
+                <constraint firstItem="uKs-x2-RgT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="bHI-pZ-unc"/>
+                <constraint firstItem="lpl-94-L1c" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="bXv-eB-rFQ"/>
+                <constraint firstItem="bBb-wf-ZzR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="iDi-9h-V5s"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uKs-x2-RgT" secondAttribute="trailing" constant="16" id="ojJ-Yn-k8O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lpl-94-L1c" secondAttribute="trailing" constant="16" id="yHn-Zt-c3F"/>
+                <constraint firstItem="lpl-94-L1c" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="z7c-48-uOS"/>
+            </constraints>
+            <point key="canvasLocation" x="-105" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="main">
+            <color red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="secondaryBackground">
+            <color red="0.95686274509803926" green="0.95686274509803926" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="shadowColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.15999999642372131" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

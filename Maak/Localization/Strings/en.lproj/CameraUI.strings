@@ -1,0 +1,18 @@
+/* 
+ CameraUI.strings
+ 
+ Created by Ahmed Raslan®
+ 
+ */
+
+"PHOTO" = "PHOTO";
+"AEAF_LOCK_TEXT" = "AE/AF LOCK";
+"API_CANCEL_TITLE" = "Cancel";
+"HDR_AUTO" = "Auto";
+"HDR_ON" = "On";
+"HDR_OFF" = "Off";
+"TIMER_OFF_TEXT" = "Off";
+"USE_PHOTO" = "Use Photo";
+"USE_VIDEO" = "Use Video";
+"ZOOM_FACTOR_TEXT" = "+/-";
+"Pick Image" = "Pick Image";

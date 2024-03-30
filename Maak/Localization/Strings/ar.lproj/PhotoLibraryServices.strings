@@ -1,0 +1,12 @@
+/* 
+  PhotoLibraryServices.strings
+
+ Created by Ahmed Raslan®
+  
+*/
+
+
+"PHOTOS" = "الصور";
+"CAMERA_ROLL" = "الكاميرا";
+"ALL_SCREENSHOTS" = "Screenshots";
+"Pick Image" = "اختر صورة";
