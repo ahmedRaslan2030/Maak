@@ -52,7 +52,7 @@ final class IntroVC: BaseVC {
         self.view.tag = tagNumber
         self.titleLabel.text = titleText
         self.bodyLabel.text = body
-        self.imageView.setWith(url: self.image)
+        self.imageView.image = UIImage(named: image ?? "")
         self.imageView.contentMode = .scaleAspectFit
     }
 }

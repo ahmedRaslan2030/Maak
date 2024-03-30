@@ -16,7 +16,27 @@ class IntroPageController: UIPageViewController {
     }
     
     private var subVC = [UIViewController]()
-    var intros = [Intro]()
+    private var intros:  [Intro] = [
+        Intro(
+              id: 0,
+              title: "Welcome".localized,
+              description: "Welcome to our app".localized,
+              image: "firstIntroImage"
+             ),
+        Intro(
+              id: 0,
+              title: "Readiness".localized,
+              description: "A group of professional experts is ready 24h to help you".localized,
+              image: "secondIntroImage"
+             ),
+        
+        Intro(
+              id: 0,
+              title: "SpareParts".localized,
+              description: "An inventory of spare parts for so many  brands".localized,
+              image: "thirdIntroImage"
+             ),
+    ]
  
     private lazy var pageControl: UIPageControl = {
        let pageControl = UIPageControl(frame: .zero)
@@ -64,7 +84,7 @@ class IntroPageController: UIPageViewController {
     // MARK: - Init -
 
     init(intros: [Intro]){
-        self.intros = intros
+//        self.intros = intros
         super.init(transitionStyle: .scroll, navigationOrientation: .horizontal)
     }
     

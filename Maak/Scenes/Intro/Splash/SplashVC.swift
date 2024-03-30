@@ -11,7 +11,6 @@ import UIKit
 final class SplashVC: BaseVC {
     // MARK: - Properties -
 
-    private var player: AVPlayer?
 
     // MARK: - Initializers -
 
@@ -33,13 +32,13 @@ final class SplashVC: BaseVC {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        loadVideo()
-    }
+        
+     }
 
     // MARK: - Design Methods -
 
     private func configureInitialDesign() {
-        view.backgroundColor =  .white
+        view.backgroundColor =  UIColor(resource: .main)
         changeLanguage(lang: UserDefaults.isFirstTime ? "en" : Language.currentLanguage())
     }
 
@@ -48,29 +47,7 @@ final class SplashVC: BaseVC {
     }
 }
 
-// MARK: - Load Video Method -
-
-extension SplashVC {
-    private func loadVideo() {
-        do {
-            try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category.ambient)
-        } catch { }
-
-        let path = Bundle.main.path(forResource: "IntroVideo", ofType: "mp4")
-
-        player = AVPlayer(url: NSURL(fileURLWithPath: path!) as URL)
-        let playerLayer = AVPlayerLayer(player: player)
-
-        playerLayer.frame = view.frame
-        playerLayer.videoGravity = AVLayerVideoGravity.resizeAspect
-        playerLayer.zPosition = -1
-
-        view.layer.addSublayer(playerLayer)
-
-        player?.seek(to: CMTime.zero)
-        player?.play()
-    }
-}
+ 
 
 
 // MARK: -Route -

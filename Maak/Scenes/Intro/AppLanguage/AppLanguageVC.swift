@@ -53,7 +53,9 @@ final class AppLanguageVC: BaseVC {
     }
     
     @IBAction private func confirmButtonPressed(_ sender: UIButton) {
-        isFromMore == false ?  checkRoute() : AppCoordinator.shared.changeFlow(navigationFlow: .tabBar(selectedIndex: .more) , animationOption: Language.isRTL() ? .transitionFlipFromLeft : .transitionFlipFromRight )
+      isFromMore == false ? AppCoordinator.shared.changeFlow(navigationFlow: .intro(intros: intros))
+    :
+    AppCoordinator.shared.changeFlow(navigationFlow: .tabBar(selectedIndex: .more) , animationOption: Language.isRTL() ? .transitionFlipFromLeft : .transitionFlipFromRight )
     }
     
 }
@@ -65,7 +67,6 @@ extension AppLanguageVC {
         isFromMore == true ? title = "App Language".localized : ()
         hidesBottomBarWhenPushed = true
         setLangDesign(.arabic)
-        isFromMore == false ? getIntros() : ()
         configureUI()
     }
     
@@ -119,25 +120,6 @@ extension AppLanguageVC {
 // MARK: - Networking -
 
 extension AppLanguageVC {
-    private func getIntros() {
-        AppIndicator.shared.show(isGif: false)
-        Task {
-            do {
-                let response = try await IntroServices.intros.send(dataType: [Intro].self)
-                self.intros = response.data ?? []
-            }catch {
-                self.showErrorToast(with: error.localizedDescription)
-            }
-        }
-        AppIndicator.shared.dismiss()
-    }
+   
 }
-
-// MARK: - Route -
-
-extension AppLanguageVC{
-    private func checkRoute(){
-        self.intros.isEmpty != true ?  AppCoordinator.shared.changeFlow(navigationFlow: .intro(intros: intros)):
-        AppCoordinator.shared.changeFlow(navigationFlow: .auth)
-    }
-}
+ 

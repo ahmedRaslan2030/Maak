@@ -38,8 +38,9 @@
 "App Language" = "لغة التطبيق" ;
 "Please choose app language" = "من فضلك قم بتحديد لغة التطبيق";
 "Choose Language" = "إختيار اللغة";
-
-
+"Welcome to our app" = "مرحبا بك في التطبيق" ;
+"A group of professional experts is ready 24h to help you" =  "نخبة من الخبراء المحترفين جاهزون لتقديم المساعدة علي مدار ال٢٤ ساعة" ;
+"An inventory of spare parts for so many  brands" = "مخزون كبير من قطع الغيار للموديلات المختلفة" ;
 
 
 // MARK: - Auth Flow -

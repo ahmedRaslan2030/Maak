@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterVC" customModule="Amin" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterVC" customModule="Maak" customModuleProvider="target">
             <connections>
                 <outlet property="acceptTermsButton" destination="Jj6-Ua-G1r" id="ee8-qr-LmT"/>
                 <outlet property="cityPicker" destination="h4b-QR-wLk" id="4I0-Ru-1B0"/>
@@ -59,7 +59,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="HUX-bm-7Jc">
                                             <rect key="frame" x="0.0" y="59" width="288" height="50"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fh8-A4-wm4" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fh8-A4-wm4" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="136" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -87,7 +87,7 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CpC-Gs-LGJ" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CpC-Gs-LGJ" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="152" y="0.0" width="136" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -117,7 +117,7 @@
                                                 </view>
                                             </subviews>
                                         </stackView>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nq3-FJ-gNB" userLabel="username" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nq3-FJ-gNB" userLabel="username" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="139" width="288" height="50"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -148,7 +148,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eJk-iD-a5p">
                                             <rect key="frame" x="0.0" y="219" width="288" height="50"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqR-bt-yb0" userLabel="phone" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rqR-bt-yb0" userLabel="phone" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -177,7 +177,7 @@
                                                         <userDefinedRuntimeAttribute type="image" keyPath="trailingImage" value="phone"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2gw-V7-Jp1" customClass="CountriesStackView" customModule="Amin" customModuleProvider="target">
+                                                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="2gw-V7-Jp1" customClass="CountriesStackView" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="143.5" y="0.0" width="104.5" height="50"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="osA-Qc-oTx">
@@ -223,7 +223,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="2gw-V7-Jp1" secondAttribute="trailing" constant="40" id="qj0-x3-Rce"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cc0-KT-zSe" userLabel="email" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cc0-KT-zSe" userLabel="email" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="299" width="288" height="50"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -254,7 +254,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DU-RS-VEr">
                                             <rect key="frame" x="0.0" y="379" width="288" height="50"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6W-8c-y3d" userLabel="nationality" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T6W-8c-y3d" userLabel="nationality" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <userDefinedRuntimeAttributes>
@@ -279,7 +279,7 @@
                                                         <userDefinedRuntimeAttribute type="image" keyPath="trailingImage" value="nationality"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="klW-l3-ReT" customClass="AppPickerTextFieldStyle" customModule="Amin" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="klW-l3-ReT" customClass="AppPickerTextFieldStyle" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -311,7 +311,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCW-8Y-Ezc">
                                             <rect key="frame" x="0.0" y="459" width="288" height="50"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDV-nC-Jbq" userLabel="city" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TDV-nC-Jbq" userLabel="city" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
@@ -339,7 +339,7 @@
                                                         <userDefinedRuntimeAttribute type="image" keyPath="trailingImage" value="city"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4b-QR-wLk" customClass="AppPickerTextFieldStyle" customModule="Amin" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h4b-QR-wLk" customClass="AppPickerTextFieldStyle" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -370,7 +370,7 @@
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AtO-aO-Zbb">
                                             <rect key="frame" x="0.0" y="539" width="288" height="50"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9B-Wt-VPW" userLabel="nationality" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x9B-Wt-VPW" userLabel="nationality" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <userDefinedRuntimeAttributes>
@@ -395,7 +395,7 @@
                                                         <userDefinedRuntimeAttribute type="image" keyPath="trailingImage" value="nationality"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
-                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ulw-zq-axq" customClass="AppPickerTextFieldStyle" customModule="Amin" customModuleProvider="target">
+                                                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ulw-zq-axq" customClass="AppPickerTextFieldStyle" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="textColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -424,7 +424,7 @@
                                                 <constraint firstItem="ulw-zq-axq" firstAttribute="top" secondItem="AtO-aO-Zbb" secondAttribute="top" id="yzX-7V-dWc"/>
                                             </constraints>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5V-wJ-abg" userLabel="password" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S5V-wJ-abg" userLabel="password" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="619" width="288" height="50"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -452,7 +452,7 @@
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="isSecureEntery" value="YES"/>
                                             </userDefinedRuntimeAttributes>
                                         </view>
-                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyw-As-IS9" userLabel="confirm password" customClass="AppTextField" customModule="Amin" customModuleProvider="target">
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fyw-As-IS9" userLabel="confirm password" customClass="AppTextField" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="699" width="288" height="50"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
@@ -522,7 +522,7 @@
                                                 <action selector="acceptTermsButtonWasPressed:" destination="-1" eventType="touchUpInside" id="mg4-fD-kPC"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDO-jj-GV4" customClass="UnderLinedButton" customModule="Amin" customModuleProvider="target">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XDO-jj-GV4" customClass="UnderLinedButton" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="27.5" y="0.0" width="231" height="29"/>
                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -541,7 +541,7 @@
                                 </stackView>
                                 <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="92o-Lv-AIb">
                                     <rect key="frame" x="0.0" y="45" width="288" height="50"/>
-                                    <color key="backgroundColor" name="main"/>
+                                    <color key="backgroundColor" name="AccentColor"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="oYt-m6-uBx"/>
                                     </constraints>
@@ -612,6 +612,9 @@
         <image name="profile" width="14.5" height="14.5"/>
         <image name="secureKey" width="24" height="24"/>
         <image name="square" catalog="system" width="128" height="114"/>
+        <namedColor name="AccentColor">
+            <color red="0.92941176470588238" green="0.45098039215686275" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="main">
             <color red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
@@ -619,7 +622,7 @@
             <color red="0.062745098039215685" green="0.062745098039215685" blue="0.062745098039215685" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondary">
-            <color red="0.52941176470588236" green="0.015686274509803921" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92941176470588238" green="0.45098039215686275" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondaryDarkFontColor">
             <color red="0.3411764705882353" green="0.3411764705882353" blue="0.3411764705882353" alpha="0.40000000596046448" colorSpace="custom" customColorSpace="sRGB"/>

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Amin" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeVC" customModule="Maak" customModuleProvider="target">
             <connections>
                 <outlet property="collectionView" destination="opZ-Mw-om7" id="X8K-4p-NbY"/>
                 <outlet property="scrollView" destination="WxB-9s-1RF" id="Wu7-R9-tWh"/>
@@ -88,7 +88,7 @@
                                                         <constraint firstAttribute="bottom" secondItem="Fn2-XW-c01" secondAttribute="bottom" id="waf-Da-Wmb"/>
                                                     </constraints>
                                                 </view>
-                                                <view contentMode="scaleToFill" verticalHuggingPriority="251" placeholderIntrinsicWidth="343" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="3eD-Nz-EJi" customClass="SliderView" customModule="Amin" customModuleProvider="target">
+                                                <view contentMode="scaleToFill" verticalHuggingPriority="251" placeholderIntrinsicWidth="343" placeholderIntrinsicHeight="128" translatesAutoresizingMaskIntoConstraints="NO" id="3eD-Nz-EJi" customClass="SliderView" customModule="Maak" customModuleProvider="target">
                                                     <rect key="frame" x="0.0" y="50" width="320" height="159"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <userDefinedRuntimeAttributes>
@@ -110,7 +110,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="jQv-nN-Yy3" secondAttribute="trailing" id="ppt-Jn-qPy"/>
                                             </constraints>
                                         </stackView>
-                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="opZ-Mw-om7" customClass="CollectionViewContentSized" customModule="Amin" customModuleProvider="target">
+                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="opZ-Mw-om7" customClass="CollectionViewContentSized" customModule="Maak" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="225" width="320" height="2000"/>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hBl-Ua-iia">
@@ -173,7 +173,7 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondary">
-            <color red="0.52941176470588236" green="0.015686274509803921" blue="0.086274509803921567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92941176470588238" green="0.45098039215686275" blue="0.10196078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="secondaryLightFontColor">
             <color red="0.55294117647058827" green="0.55294117647058827" blue="0.55294117647058827" alpha="0.74000000953674316" colorSpace="custom" customColorSpace="sRGB"/>
